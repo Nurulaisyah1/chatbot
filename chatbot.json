@@ -1,0 +1,120 @@
+{
+    "intents": [{
+            "tag": "salam",
+            "patterns": [
+                "hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis",
+                "kawan", "assalamualaikum", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"
+
+            ],
+            "responses": [
+                "Hai! saya Fruity di sini. Mau tau informasi tentang apa nih?",
+                "Halo! Saya Fruity, salam kenal ya! Mau tau tentang resep makanan dengan kandungan buah dan sayur, kan?",
+                "Helo! Ini Fruity. Lagi pengen tahu resep makanan dan jumlah kandungan gizi ya?"
+            ]
+        },
+        {
+            "tag": "fruity",
+            "patterns": [
+                "Apa itu Fruity?",
+                "Siapa Fruity?"
+            ],
+            "responses": [
+                "Fruity adalah aplikasi chatbot informasi tentang aplikasi EatHealthy yang berisikan resep makanan dari bahan buah dan sayur",
+                "Fruity itu adalah teman informasi kamu tentang resep makanan sehat!"
+            ]
+        },
+        {
+            "tag": "pencipta_Fruity",
+            "patterns": [
+                "Siapa pembuatmu?",
+                "fruity, yang buat kamu siapa sih?",
+                "Siapa penciptamu, fruity?"
+            ],
+            "responses": [
+                "fruityBot diciptakan oleh mahasiswa dan mahasiswi dari politeknik harber tegal",
+                "Pembuat fruityBot dari kalangan mahasiswa dan mahasiswi lho!",
+                "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+            ]
+        },
+        {
+            "tag": "selamat tinggal",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati :)",
+                "Sama-sama yaa"
+            ]
+        },
+        {
+            "tag": "penjelasan_eathealthy",
+            "patterns": [
+                "Apa itu eathealthy?"
+            ],
+            "responses": [
+                "eathealthy adalah aplikasi resep makanan sehat seht dari olahan buah dan sayur"
+            ]
+        },
+        {
+            "tag": "tujuan_eathealthy",
+            "patterns": [
+                "Apa tujuan eathealthy?"
+            ],
+            "responses": [
+                "eathealthy merupakan aplikasi yang dibuat dengan untuk membantu pengguna untuk mengolah makanan sehat berdasarkan rekomendasi resep dan tertulis juga jumlah gizinya."
+            ]
+        },
+        {
+            "tag": "buah",
+            "patterns": [
+                "buah apa saja yang dapat diolah?",
+                "apakah tomat buah?"
+            ],
+            "responses": [
+                "mangga, strawberry, buah naga, pisang , dll",
+                "iya tomat adalah buah"
+
+
+            ]
+        },
+        {
+            "tag": "sayur",
+            "patterns": [
+                "sayur apa saja yang dapat diolah?",
+                "apakah belimbing buah?"
+            ],
+            "responses": [
+                "kol, brokoli, wortel, kubis, jagung, dll",
+                "iya belimbing  adalah buah"
+
+
+            ]
+        }
+    ]
+}
